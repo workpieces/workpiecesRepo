@@ -16,13 +16,13 @@ Pod::Spec.new do |spec|
   #
   
   spec.name         = "etcdWpModule"
-  spec.version      = "v1.0.5"
+  spec.version      = "0.0.1"
   spec.summary      = "A short description of etcdWpModule."
   spec.homepage     = "https://github.com/workpieces/etcdLibrary"
   spec.summary      = "{\"description\":\"A short description of etcdWpModule.\",\"level\":0,\"dependforms\":[]}"
   spec.license      = { :type => "MIT", :file => "license" }
   spec.author             = { "workpieces" => "workpieces.app@gmail.com" }
-  spec.source       = { :git => "git@github.com:workpieces/etcdWpModule.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:workpieces/etcdLibrary.git", :tag => "#{spec.version}" }
   spec.default_subspecs = 'iosModule', 'macOSModule'
   spec.subspec 'iosModule' do |ss|
     ss.platform     = :ios, "14.0"
@@ -32,6 +32,6 @@ Pod::Spec.new do |spec|
   spec.subspec 'macOSModule' do |ss|
     ss.platform     = :osx, "11.0" 
     ss.osx.deployment_target = '11.0'
-    ss.vendored_frameworks = 'MacosIOSEtcd.xcframework/macos-arm64_x86_64/*.framework'
+    ss.vendored_frameworks = 'MacosEtcd.xcframework/macos-arm64_x86_64/*.framework'
   end
 end
