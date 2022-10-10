@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "{\"description\":\"A short description of etcdWpModule.\",\"level\":0,\"dependforms\":[]}"
   spec.license      = { :type => "MIT", :file => "license" }
   spec.author             = { "workpieces" => "workpieces.app@gmail.com" }
-  spec.source       = { :git => "git@github.com:workpieces/etcdLibrary.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:workpieces/etcdWpModule.git", :tag => "#{spec.version}" }
   spec.default_subspecs = 'iosModule', 'macOSModule'
   spec.subspec 'iosModule' do |ss|
     ss.platform     = :ios, "14.0"
