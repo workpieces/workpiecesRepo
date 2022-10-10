@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
   
   spec.name         = "etcdWpModule"
-  spec.version      = "0.0.1"
+  spec.version      = "v1.0.5"
   spec.summary      = "A short description of etcdWpModule."
   spec.homepage     = "https://github.com/workpieces/etcdLibrary"
   spec.summary      = "{\"description\":\"A short description of etcdWpModule.\",\"level\":0,\"dependforms\":[]}"
