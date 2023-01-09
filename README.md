@@ -1,3 +1,3 @@
 # workpiecesRepo
 
-Introduction: Workpieces package management repository.
+Workpieces organization's package management repository.
