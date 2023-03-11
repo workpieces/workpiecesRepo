@@ -1,2 +1,3 @@
 # workpiecesRepo
-workpieces 仓库
+
+Workpieces organization's package management repository.
