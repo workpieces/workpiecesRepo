@@ -32,6 +32,7 @@ Pod::Spec.new do |spec|
      ss.vendored_frameworks = 'framework_tmp/framework/MobileIOSEtcd.framework'
    end
    spec.subspec 'macOSModule' do |ss|
+     ss.static_framework = true
      ss.vendored_frameworks = 'MacosEtcd.xcframework/macos-arm64_x86_64/MacosEtcd.framework'
    end
 end
